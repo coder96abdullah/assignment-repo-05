@@ -18,7 +18,7 @@
 
 </head>
 
-<body class="w-[90%] max-w-[1200px] mx-auto ">
+<body class=" max-w-[1200px] mx-auto ">
     <section id="page1" class="hidden">
         <div class="  bg-gray-100 flex justify-center items-center h-[700px] mt-[100px] w-[85%] lg:w-[70%] mx-auto">
             <div
@@ -35,18 +35,17 @@
     </section>
     <section id="page2" class="bdt p-4 lg:p-1">
         <header>
-            <nav class="flex justify-between w-[85%] lg:w-auto my-[30px]">
+            <nav class="flex justify-between w-[100%] lg:w-auto my-[30px]">
 
                 <h1 class="font-bold text-2xl">P-Ticket</h1>
                 <button class="flex px-8 py-2 bg-green-100 text-green-950 rounded-md ">Bus<img class="pl-1"
                         src="images/bus-icon.png" alt=""> </button>
             </nav>
-            <section class="bg-[url('images/banner.png')] py-20 pb-[238px] bg-no-repeat opacity-[10px] space-y-5 w-[85%] lg:w-auto">
+            <section class="bg-[url('images/banner.png')] py-20 pb-[238px] bg-no-repeat opacity-[10px] space-y-5 w-[100%] lg:w-auto">
                 <h1 class="font-extrabold text-4xl text-white text-center">
                     End-to-End Travel with <br> <span class="text-green-400">P Paribahan</span>
                 </h1>
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Placeat architecto
-                    accusantium voluptates <br> qui itaque praesentium ipsa nesciunt molestias quia explicabo?</p>
+                <p class="text-center text-white">We are offering the best journey for you <br> We do not compromise about quality, safety and security <br> We hope you will get best journey with us.</p>
                 <div class="flex justify-center">
                     <button id="buy-btn" class="bg-green-500 px-10 py-2 rounded-3xl">Buy Tickets</button>
                 </div>
@@ -54,11 +53,11 @@
 
         </header>
 
-        <main id="mains">
+        <main>
             <section class="mt-[100px]">
                 <h1 class="text-center font-extrabold text-3xl">Best offers for you</h1>
                 <div class="flex flex-col lg:flex-row gap-10 mt-[50px]">
-                    <div class="flex w-[85%] lg:w-auto bg-yellow-600 flex-1 items-center justify-center ">
+                    <div class="flex w-[100%] lg:w-auto bg-yellow-600 flex-1 items-center justify-center ">
                         <div class="pl-5 w-[50%]">
                             <h1 class="text-4xl font-bold">15% OFF</h1>
                             <h4 class="font-medium">on your next purchase</h4>
@@ -70,7 +69,7 @@
                             <h3 class="font-normal">Coupon Code</h3>
                         </div>
                     </div>
-                    <div class="flex bg-purple-500 w-[85%] lg:w-auto flex-1 items-center justify-center">
+                    <div class="flex bg-purple-500 w-[100%] lg:w-auto flex-1 items-center justify-center">
 
                         <div class="pl-5 w-[50%]">
                             <h1 class="text-4xl font-bold">20% OFF</h1>
@@ -86,12 +85,11 @@
                     </div>
                 </div>
             </section>
-            <section class="my-20">
-                <h1 class="text-center font-extrabold text-3xl">P.H Paribahan</h1>
-                <p class="text-center text-gray-500 text-sm">Yes, you can run unit tests and view the results directly
-                    within the app. <br> The integrated testing features allow for a streamlined .</p>
+            <section id="mains" class="my-20 ">
+                <h1 class="text-center font-extrabold text-3xl py-3">P.H Paribahan</h1>
+                <p class="text-center text-gray-500 text-sm">We are offering the best journey for you <br> We do not compromise about quality, safety and security <br> We hope you will get best journey with us.</p>
                 <div class="flex flex-col lg:flex-row mt-[50px] mx-auto">
-                    <div class="w-[85%] lg:w-[60%]">
+                    <div class="w-[100%] lg:w-[60%]">
                         <div class="flex justify-between  lg:justify-evenly">
                             <div class="flex gap-3 items-center">
                                 <img class="w-10 h-10" src="images/bus-logo.png" alt="">
@@ -124,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex w-[90%] lg:w-[40%] gap-4">
+                    <div class="flex w-[100%] lg:w-[40%] gap-4">
                         <div class="pl-10 lg:pl-0 pt-10">
                             <img src="images/info-devider.png" alt="">
                         </div>
@@ -139,7 +137,23 @@
             </section>
 
             <section class="flex flex-col lg:flex-row  gap-10 my-[100px]">
-                <div class=" btn-container grid grid-cols-5 w-[80%] lg:w-[35%] gap-5">
+                <div class="flex-1">
+
+                 <h1 class="text-2xl font-bold py-3">Select Your Seat</h1>
+                 <hr>
+                 <div class="flex justify-between my-5">
+                    <div class="flex gap-2">
+                        <img src="images/seat-gray.png" alt="">
+                        <span>Available</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="images/seat-green-filled.png" alt="">
+                        <span class="text-green-300">Selected</span>
+                    </div>
+                 </div>
+                 <hr class="pb-10">
+                
+                <div class=" btn-container grid grid-cols-5 w-[90%] lg:w-[100%] gap-5">
                     <span>A</span>
                     <kbd class="kbd btn0">A1</kbd>
                     <kbd class="kbd btn0">A2</kbd>
@@ -192,8 +206,10 @@
                     <kbd class="kbd btn0">J4</kbd>
 
                 </div>
-                <div class=" w-[90%] lg:w-[40%] p-10 rounded-xl space-y-3">
-
+                </div>
+                <div class=" w-[100%] lg:w-[40%] p-10 rounded-xl space-y-3 flex-1">
+                          <h1 class="text-2xl font-bold">Select Your Seat</h1>
+                          <hr class="py-3">
                     <div class="bg-slate-100 p-6 space-y-2 rounded-lg">
                         <h4 class="flex flex-row justify-between font-bold"><span> Seat<span id="seat-booked"
                                     class=" bg-green-700 text-white px-2 rounded-sm ml-1">0</span></span><span
@@ -229,7 +245,41 @@
                     </div>
                 </div>
             </section>
+
         </main>
+
+        <footer class="bg-black text-white pt-[50px] pb-[50px] text-center">
+            <div class="flex justify-between w-[100%] mx-auto gap-14 px-10">
+                <div class="">
+                    <h1 class="text-3xl">P-Ticket.</h1>
+                    <p>P-Ticket is a digital platform to make your <br> 
+                        daily commuting better.</p>
+                </div>
+                <div class="">
+                    <h3 class="text-xl">Download our app</h3>
+                    <div class="border flex rounded-lg my-2 p-3 gap-2">
+                        <img src="images/playstore.png" alt="">
+                        <span class="text-base">GET IT ON <br>
+                            <span class="text-xl">Google Play</span> </span>
+                    </div>
+                </div>
+            </div>
+            <hr class="py-5">
+            <div class="pt-3 flex justify-around items-center">
+                <p>@all rights reserved, P-Ticket services limited.2024</p>
+                <div class="flex gap-5">
+                    <span>Terms & condition</span>
+                    <span>Return & refund policy</span>
+                    <span>Privacy policy</span>
+                </div>
+            </div>
+
+
+
+
+
+
+        </footer>
     </section>
     <script src="jscode.js"></script>
 </body>

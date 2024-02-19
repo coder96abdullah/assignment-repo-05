@@ -20,11 +20,13 @@ for (const btn of document.querySelectorAll('.kbd')) {
 
                 document.getElementById('seat-leaft').innerText = document.getElementById('seat-leaft').innerText -1;
                 const num = document.createElement('p');
-                num.innerText = btn.innerText + ' --------------------Economy--------------- ' + '550';
+                num.innerText = btn.innerText + ' --------------------------Economy------------------------ ' + '550';
                 document.getElementById('seat-details').appendChild(num);
                 const total = count * 550;
-                document.getElementById('total-price').innerText = total.toFixed(2);
+                const grandTotal= count*550;
 
+                document.getElementById('total-price').innerText = total.toFixed(2);
+                document.getElementById('grand-total').innerText = total.toFixed(2);
                 // Next button activate work
                 if (document.getElementById('number-inp').value.length !== 0) {
                     document.getElementById('next-btn').removeAttribute('disabled');
